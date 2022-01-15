@@ -11,15 +11,18 @@ body{
 }
 
 .main-el{
-    background-color: #eb6134;
+    background-color: #128d8f;
     padding: 10px 0 100px;
     border-radius: 10px;
+    
 
 }
 
 h1{
     margin: 10px opx;
     color: whitesmoke;
+    text-align: center; 
+  
 }
 
 h2{
@@ -29,6 +32,11 @@ h2{
     color:#c8def7;
 }
 
+#buttons{
+    
+    
+}
+
 button{
     color: white;
     padding: 10px 0 10px;
@@ -36,15 +44,25 @@ button{
     width: 200px;
     border-radius: 5px; 
     border: none; 
+    margin: 0 auto;
     margin-bottom: 5px;
+    display:flex;
+    
 
      
 }
 
 #increment-btn{
-    background-color: darkred;
+    background-color: #17a6d1;
+    padding-left: 65px;
+    
 }
 
 #save-btn{
-    background-color: darkred;
+    background-color: #105a5e;
+    padding-left: 80px;
+}
+
+#save-el{
+    color: #fff;
 }
